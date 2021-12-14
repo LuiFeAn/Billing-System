@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Panificadora Luiza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>PANIFICADORA LUIZA</h1>
+    </header>
+    <section class = 'app'>
+        <div class = 'calcs'>
+            <div id = 'texts'>
+                <p id = 'total'>Total: 0,00 R$</p>
+                <p id = 'val'>Pagamento: 0,00 R$</p>
+                <p id = 'tc'>Troco: 0,00 R$</p>
+            </div>
+		<br><br>
+            <div id = 'inputs'>
+                <input id = 'product' type="text" placeholder="Nome Do Produto">
+                <div id = 'infos'>
+                    <input id = 'value' type="number" placeholder="Valor">
+                    <input id = 'quant' type="number" placeholder="Quantidade">
+                </div>
+                <button id = 'add'>Adicionar</button>
+                <input id = 'pag' type="number" placeholder="Pagamento (R$)">
+                <button id = 'end'>Finalizar</button>
+                <button id = 'clear'>Limpar</button>
+            </div>
+        </div>
+        <div class = 'products'>
+            <p>Produtos:</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
